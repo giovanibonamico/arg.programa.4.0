@@ -1,0 +1,202 @@
+  html,body{
+    margin:0px;
+    font-family: Roboto, Arial, Helvetica;
+    font-size:15px;
+  }
+
+  h2 {
+    font-weight:700;
+  }
+
+  .hero-image{
+    background: url('img/fondo.jpg'), black;
+    background-size: cover;
+    background-position: right;
+    color:white;
+  }
+  
+  header img {
+      display: block;
+      margin: 0 auto 20px;
+  }
+
+  .img-inside {
+    height: 250px;
+  }
+  
+  header {
+    text-align :center;
+  }
+  
+  header .container {
+      padding-top: 100px;
+      padding-bottom: 50px;
+  }
+  
+  .tech {
+      margin: 0 0 15px;
+      right: 0;
+  }
+
+  .social  {
+    padding:12px;
+     font-size:2em;
+    background-color:#06859e;
+    color:white;
+  }
+  
+  .fa:hover {
+    color: #0eafcf;
+  }
+
+  .me {
+    background-color:#0eafcf;
+  }
+  /*separadores*/
+  .separator {
+      margin-top: 0;
+      width:40%;
+      margin: 0 30% 0 30%;
+      margin-bottom: 15px;
+      font-size: 35px;
+      border-bottom: 6px solid white;
+      padding-bottom: 5px;;
+  }
+  
+  .servicios h2 {
+    padding-bottom:30px;
+  }
+
+  p {
+    text-align:inherit;
+    font-size:20px;
+    line-height:1.5;
+    font-family: 'Lato', sans-serif;
+    color:white;
+    margin: 10px 0 10px;
+  }
+  
+  .portafolio-text {
+    margin-bottom: 25px;
+    margin-top: 10px;
+  }
+      
+  .fa-stack {
+    font-size:4em;
+  }
+  .separator-portafolio {
+    
+    background-color:#0eafcf; /*el separador principal va antes de este*/
+    margin-bottom:50px;
+  }
+  
+  .white {
+    color:white
+  }
+
+  h2 {
+    font-size:3em;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+  }
+  
+  .text-intro {
+    font-size :4.3em;
+    font-weight: 700;
+  }
+  
+  .texto-servicios p{
+    color:gray; 
+  }
+  
+  section {
+    padding: 75px 0;
+  }
+  section .servicios {
+    margin-bottom:30px;
+  }
+  
+  @media (max-width: 767px){
+    section {
+      padding: 75px 0;
+    }
+    .text-intro {
+      font-size :1.8em;
+    }
+
+  }
+  
+  .skills {
+    background-color:#F7F7F7;
+  }
+
+  h4 {
+    font-weight: 700;
+  }
+
+
+  .containerCircle{
+    width: 110px;
+    height: 110px;
+    margin: 60px auto;
+  }
+
+  .prec{
+    top: 35px;
+    position: relative;
+    font-size: 30px;
+  }
+  
+  .circle{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    text-align: center;
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    background-color: #F7F7F7;
+  }
+  
+  .active-border-low{
+    position: relative;
+    text-align: center;
+    width: 140px;
+    height: 140px;
+    border-radius: 100%;
+    background-color:#0eafcf;
+
+    background-image:
+        linear-gradient(180deg, transparent 50%, #e0e0e0 50%),
+        linear-gradient(90deg, #e0e0e0 50%, transparent 50%);
+  }
+
+  .active-border-medium{
+    position: relative;
+    text-align: center;
+    width: 140px;
+    height: 140px;
+    border-radius: 100%;
+    background-color:#0eafcf;
+    background-image:
+        linear-gradient(90deg, #e0e0e0 50%, transparent 50%);
+  }
+
+  .active-border-high{
+    position: relative;
+    text-align: center;
+    width: 140px;
+    height: 140px;
+    border-radius: 100%;
+    background-color:#0eafcf;
+  }
+
+  .text-education {
+    color: black;
+  }
+
+  li {
+    padding: 0.5rem 2rem;
+  }
+
+
